@@ -6,8 +6,8 @@
 -module(zotonicdemo).
 -author("Arjan Scherpenisse").
 
--mod_title("zotonicdemo zotonic site").
--mod_description("An empty Zotonic site, to base your site on.").
+-mod_title("Zotonic Demonstration site").
+-mod_description("A sandbox environment site, for demonstration purposes.").
 -mod_prio(10).
 -mod_schema(1).
 
