@@ -1,5 +1,7 @@
 {% extends "base.tpl" %}
 
+{% block title %}{{ m.site.title }}{% endblock %}
+
 {% block content %}
 
 <div class="hero-unit">
