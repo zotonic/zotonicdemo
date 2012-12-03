@@ -13,7 +13,7 @@
 
 -include_lib("zotonic.hrl").
 
--export([manage_schema/2]).
+-export([manage_schema/2, observe_module_activate/2]).
 
 %%====================================================================
 %% API functions go here
@@ -28,6 +28,11 @@ manage_schema(install, _Context) ->
                             {body, <<"<p>To edit this page, click the button below to log in to the admin interface.</p>">>}
                            ]}
                          ]}.
+
+observe_module_activate(#module_activate{module=mod_ssl}, Context) ->
+    z_module_manager:deactivate(mod_ssl, Context);
+observe_module_activate(_, _) ->
+    undefined.
 
 %%====================================================================
 %% support functions go here
