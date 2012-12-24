@@ -4,6 +4,11 @@
 
 {% block content %}
 
+<div class="alert ">
+    This site functions as a demonstration site for
+    <a href="http://zotonic.com/">Zotonic, the Erlang Web Framework and CMS</a>.
+</div>
+
 <div class="hero-unit">
     <h1>{{ m.rsc.page_home.title }}</h1>
     <p>{{ m.rsc.page_home.summary }}</p>
