@@ -7,7 +7,7 @@
 
 <div class="admin-logon" style="margin-top: 0px">
     <p>
-        This is a demonstration Zotonic site. It is reset every 4 hours.
+        This is a demonstration Zotonic site. It is reset every midnight (0:00 GMT).
     </p>
     <p>
         To log in as administrator, use <b>admin</b> /
